@@ -14,7 +14,7 @@ default: &default
   encoding: utf8
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: root
-  password: tigercat1
+  password: # The Cat
   host: localhost
 
 development:
@@ -23,7 +23,7 @@ development:
   database: todo-with-mySql_development
   host: localhost
   username: root
-  password: tigercat1
+  password: # The Cat
   encoding: utf8
 
 # Warning: The database defined as "test" will be erased and
